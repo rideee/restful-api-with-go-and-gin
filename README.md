@@ -27,7 +27,7 @@ It may be slightly different from the original (more comments etc.).
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) -
   Visual Studio Code Extension
 
-## REST_Requests.http file
+### REST_Requests.http file
 
 _This file is used by
 [REST Client (Visual Studio Code extension)](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)._
@@ -40,9 +40,9 @@ Some examples requests are in REST_Requests.http file.
 
 ---
 
-# Troubleshooting
+## Troubleshooting
 
-## **[Error]** go: modules disabled by GO111MODULE=off (...)
+### **[Error]** go: modules disabled by GO111MODULE=off (...)
 
 Error occurs when using 'go mod tidy':
 
@@ -65,7 +65,7 @@ You can check this using:
   ...
 </pre>
 
-### What is GO111MODULE?
+#### What is GO111MODULE?
 
 > From **Go version 1.11**, the way to deal with modules was **revamped**.
 >
@@ -106,7 +106,7 @@ You can check this using:
 - [Go to -> Official - Detailed reference on modules](https://golang.org/ref/mod)
 - [Go to -> Official - Private Module Privacy](https://golang.org/ref/mod#private-module-privacy)
 
-## Solution
+#### Solution
 
 The easiest way to fix the problem is to set **GO111MODULE** environment
 variable to **auto**, using **go env** command (like below), then verify also by
