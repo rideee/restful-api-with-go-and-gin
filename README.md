@@ -15,7 +15,7 @@ It may be slightly different from the original (more comments etc.).
 <pre>
   $ git clone https://github.com/rideee/restful-api-with-go-and-gin
   $ cd restful-api-with-go-and-gin
-  $ go mod tidy
+  $ go get -u .
   $ go run .
 </pre>
 
@@ -42,9 +42,7 @@ Some examples requests are in REST_Requests.http file.
 
 ## Troubleshooting
 
-### **[Error]** go: modules disabled by GO111MODULE=off (...)
-
-Error occurs when using 'go mod tidy':
+### go: modules disabled by GO111MODULE=off (...)
 
 <pre>
   $ go mod tidy
